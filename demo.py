@@ -6,7 +6,7 @@ from keras import preprocessing
 import time
 
 # Cargar el modelo entrenado
-MODEL_PATH = 'C:/Users/EDINSON/Desktop/CODIGO DE ENTRENAMIENTO/ARCHIVO PYTON/proyecto_malaria/models/modelo2_malaria.keras'
+MODEL_PATH = 'C:/Users/EDINSON/Desktop/Software/Malaria/models/modelo2_malaria.keras'
 model = tf.keras.models.load_model(MODEL_PATH)
 
 # Función para preprocesar la imagen
